@@ -1,0 +1,15 @@
+{
+  "narrator.screen.usage": " ",
+  "narration.component_list.usage": " ",
+  "narration.button.usage.focused": " ",
+  "narration.button.usage.hovered": " ",
+  "narration.cycle_button.usage.focused": " ",
+  "narration.cycle_button.usage.hovered": " ",
+  "narration.checkbox.usage.focused": " ",
+  "narration.checkbox.usage.hovered": " ",
+  "narrator.position.screen": " ",
+  "narrator.position.list": " ",
+  "narrator.position.object_list": " ",
+  "chat_screen.message": "Message: %s",
+  "chat_screen.usage": " "
+}
