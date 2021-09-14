@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Controls Menu Bug Fix",
-  "description": "This is an example description! Tell everyone what your mod is about",
+  "description": "Fixes the controls menu bug with narration.",
   "authors": [
     "Shoaib Khan"
   ],
@@ -18,7 +18,7 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
+    "client": [
       "net.shoaibkhan.cmbf.MainClass"
     ]
   },
