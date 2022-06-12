@@ -42,17 +42,16 @@ public class MainClass implements ClientModInitializer {
 		Robot mouse;
 		try {
 			mouse = new Robot();
-			if (minecraftClient.options.fullscreen) {
+			if (minecraftClient.options.fullscreen) { // pre 1.19
+//			if (minecraftClient.options.getFullscreen().getValue()) { // post 1.19
 				mouse.mouseMove(1, 1);
-				mouse.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-				mouse.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 			} else {
 				int x = minecraftClient.getWindow().getX();
 				int y = minecraftClient.getWindow().getY();
 				mouse.mouseMove(x + 1, y + 1);
-				mouse.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-				mouse.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 			}
+			mouse.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+			mouse.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 		} catch (AWTException e) {
 			e.printStackTrace();
 		}
