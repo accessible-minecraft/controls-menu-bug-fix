@@ -1,3 +1,1 @@
-# Controls Menu Bug Fix
-
-This mod fixes the bug with the control menu in 1.17.
+This mod has been replaced with [minecraft access](https://github.com/khanshoaib3/minecraft-access) and is no longer maintained.
